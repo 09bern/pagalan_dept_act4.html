@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armament Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('V.A.S logo.png');
+            background-size: 10%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            background-image: url('V.A.S logo.png');
+            background-size: 10%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+   nav {
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 10px;
+        }
+        
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Armament Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+        <a href="#login">Login</a>
+    </nav>
+    <section id="about" align="center">
+        <h2>About Us</h2>
+        <p> Welcome to our armament website. We specialize in providing high-quality arms and ammunition for various purposes.</p>
+    </section>
+    <section id="products" align="center">
+        <h2>Our Products</h2>
+        <ul>
+            <ul>Rifles</ul>
+            <ul>Pistols</ul>
+            <ul>Shotguns</ul>
+            <ul>Ammunition</ul>
+            <ul>Tactical Gear</ul>
+        </ul>
+    </section>
+    <section id="contact" align="center">
+        <h2>Contact Us</h2>
+        <p>If you have any inquiries or need assistance, feel free to contact us at:</p>
+        <p>Email: info@armament.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    <section id="login" align="center">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+            <div class="social-buttons">
+                <button class="facebook-btn" onclick="loginWithFacebook()" align="center">Login with Facebook</button>
+                <button class="google-btn" onclick="loginWithGoogle()" align="center">Login with Gmail</button>
+              </div>
+        </form>
+    </section>
+    
+</body>
+</html>
